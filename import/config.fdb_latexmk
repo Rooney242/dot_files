@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1594830696 "config.tex" "config.pdf" "config" 1594830696
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1594678352 2432465 97cb475e5be4295ba807c612a6af6d13 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "config.aux" 1594829243 8 a94a2480d3289e625eea47cd1b285758 ""
+  "config.tex" 1594830696 507 f6b5e647810a87872b00c8700e3da3e5 ""
+  (generated)
+  "config.log"
+  "config.pdf"

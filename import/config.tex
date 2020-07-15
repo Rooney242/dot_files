@@ -1,0 +1,21 @@
+\usepackage[chorded]{songs}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\renewcommand{\lyricfont}{\small} 
+\renewcommand{\printchord}{\bf\small} 
+\beforepostludeskip=-8pt
+\afterpreludeskip=-10pt 
+%\renewcommand{\textnote}{\bf}
+
+\renewcommand{\everychorus}{\textnote{Estribillo:}}    \renewcommand{\everyverse}{\textnote{Estrofa:}}
+\newcommand{\beginintro}{\beginverse*\textnote{Intro:}}
+\renewcommand{\endintro}{\endverse}
+
