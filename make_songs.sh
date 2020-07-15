@@ -3,11 +3,10 @@
 cd full_songs
 
 echo 'Compiling all songs...'
-latexmk -pdf > /dev/null 2>&1
+latexmk -pdf ../tex_files/* > /dev/null 2>&1
 
 echo 'Cleaning up extra files...'
-latexmk -c * > /dev/null 2>&1
+find . -type f -not -name '*.pdf' -delete > /dev/null 2>&1
 
 cd ../tex_files
-
-latexmk -C * > /dev/null 2>&1
+find . -type f -not -name '*.tex' -delete
