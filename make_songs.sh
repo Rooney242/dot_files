@@ -10,3 +10,6 @@ find . -type f -not -name '*.pdf' -delete > /dev/null 2>&1
 
 cd ../tex_files
 find . -type f -not -name '*.tex' -delete
+
+cd ../import
+find . -type f -not -name '*.tex' -delete
