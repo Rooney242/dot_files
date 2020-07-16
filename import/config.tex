@@ -12,10 +12,19 @@
 \renewcommand{\lyricfont}{\small} 
 \renewcommand{\printchord}{\bf\small} 
 \beforepostludeskip=-8pt
-\afterpreludeskip=-10pt 
-%\renewcommand{\textnote}{\bf}
+\afterpreludeskip=-10pt
+\renewcommand{\notebgcolor}{white}
+%\renewcommand{\notefont}{\medium}
 
-\renewcommand{\everychorus}{\textnote{Estribillo:}}    \renewcommand{\everyverse}{\textnote{Estrofa:}}
-\newcommand{\beginintro}{\beginverse*\textnote{Intro:}}
-\renewcommand{\endintro}{\endverse}
+%\renewcommand{\everychorus}{\textnote{Estribillo:}}    
+%\renewcommand{\everyverse}{\textnote{Estrofa:}}
 
+%% Song parts enviroments
+\newcommand{\intro}{\beginverse*\textnote{Intro:}}
+\newcommand{\estrofa}{\beginverse*\textnote{Estrofa:}}
+\newcommand{\estribillo}{\beginverse*\textnote{Estribillo:}}
+\newcommand{\instrumental}{\beginverse*\textnote{Instrumental:}}
+\newcommand{\outro}{\beginverse*\textnote{Outro:}}
+\newcommand{\finparte}{\endverse}
+
+\brkpenalty=50
